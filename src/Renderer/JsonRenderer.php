@@ -69,6 +69,8 @@ class JsonRenderer implements Renderer, TreeRendererInterface
     public function setResolver(Resolver $resolver)
     {
         $this->resolver = $resolver;
+
+        return $this;
     }
 
     /**
